@@ -1,0 +1,92 @@
+<!--
+    Crie exemplos de utilização das tags mais comuns na HTML: metadados, separação de conteúdo, texto, imagem e formulário. É necessário pelo menos dois exemplos de cada tipo.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Exemplo Metadados: tag meta (definição de metadados) -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Exemplo Metadados: tag title (definição do título da página) -->
+    <title>Título</title>
+    <!-- Exemplo Metadados: tag link (importar folhas de estilos) -->
+    <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+    <!-- Exemplo Separação de conteúdo: header (cabeçalho da página) -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="">Barras de navegação do cabeçalho</a></li>
+                <li><a href="">Barras de navegação do cabeçalho</a></li>
+                <li><a href="">Barras de navegação do cabeçalho</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Exemplo Separação de conteúdo: main (conteúdo principal da página) -->
+    <main>
+        <!-- h1 (Títulos) -->
+        <h1>Título maior</h1>
+        <!-- Exemplo Texto: p (parágrafos)-->
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium, nesciunt aut eius excepturi velit optio, eum in aperiam repellat eos consequuntur illo temporibus, quaerat sed explicabo praesentium necessitatibus quis numquam!</p>
+        <!-- Exemplo Texto: ol (listas ordenadas)-->
+        <ol>
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+        </ol>
+        <!-- Exemplo Texto: ul (listas não ordenadas)-->
+        <ul>
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+        </ul>
+
+        <br>
+        <!-- Exemplo imagem -->
+        <img height="150" src="./github-logo.png" alt="Logo do github">
+        <!-- Exemplo imagem -->
+        <img height="150" src="https://assets-global.website-files.com/6257adef93867e50d84d30e2/636e0a6ac3c481f273141736_icon_clyde_black_RGB.png" alt="logo do discord">
+        <br>
+        <br>
+
+        <!--Exemplo Formulário-->
+        <form>
+            <label for="nome">Nome: </label>
+            <input id="nome" type="text" placeholder="Digite seu nome">
+            
+            <label for="senha">Senha: </label>
+            <input id="senha" type="password" placeholder="Digite sua senha">
+
+            <button>OK</button>
+        </form>
+        <br>
+        <br>
+        <!--Exemplo Formulário-->
+        <form>
+            <fieldset>
+                <legend>Informações pessoais</legend>
+
+                <label for="nome">Nome: </label>
+                <input id="nome" type="text" placeholder="Digite seu nome">
+                <br>
+                <label for="idade">Idade: </label>
+                <input id="idade" type="number" placeholder="Digite sua idade">
+                <br>
+                <label for="genero">Gênero: </label>
+                <input id="generoMasculino" name="genero" type="radio" value="masculino">
+                <label for="generoMasculino">Masculino</label>
+                <input id="generoFeminino" name="genero" type="radio" value="feminino">
+                <label for="generoFeminino">Feminino</label>
+                <input id="outroGenero" name="genero" type="radio" value="outro">
+                <label for="outroGenero">Outro</label>
+                <br>
+                <button>Enviar</button>
+            </fieldset>
+        </form>
+    </main>
+    <!-- Exemplo Separação de conteúdo: footer (rodapé da página) -->
+    <footer>Rodapé meu site</footer>
+
+</body>
+</html>
